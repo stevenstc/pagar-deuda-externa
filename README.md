@@ -3,7 +3,7 @@ como colombianos que somos vamos a pagar la deuda externa demostrando la inutili
 
 
 # OBJETIVO
-Recaudar la cantidad de US$156.834 millones de Dolarés para pagar la deuda externa de Colombia
+Recaudar la cantidad de US$156.834 millones de Dolarés para pagar la deuda externa de Colombia según este [articulo](https://www.portafolio.co/economia/deuda-externa-total-de-colombia-llega-a-los-us-156-834-millones-550884)
 
 # MEDIOS
 Un unico Contrato Inteligente

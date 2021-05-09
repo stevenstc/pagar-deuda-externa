@@ -81,15 +81,15 @@ contract Recaudo {
     return gastador;
   }
 
-  function pagarDeuda() public returns (uint256) {
+  function saldarDeuda() public returns (address, uint256) {
 
     require ( msg.sender == gastador, "only Gastador");
 
     require ( USDT_Contract.balanceOf(address(this)) >= META, "The contract has no balance");
 
-    USDT_Contract.transfer(owner, META);
+    USDT_Contract.transfer(gastador, META);
 
-    return _value;
+    return (gastador, META);
 
   }
 
